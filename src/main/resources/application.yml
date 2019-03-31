@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: orchestrator
+app:
+  ribbon:
+    eureka:
+      enabled: false
+  listOfServers: http://localhost:8181, http://localhost:8182
